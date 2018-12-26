@@ -1,0 +1,54 @@
+.keypad {
+  background-color: #263238;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.keypad__row {
+  display: flex;
+  flex: 1;
+}
+
+.key {
+  background-color: #616161;
+  border: solid 1px #263238;
+  outline: none;
+  color: #F5F5F5;
+  font-size: 24px;
+  line-height: 30px;
+  flex: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.4s;
+
+  &:hover,
+  &:active {
+    background-color: darken($color: #616161, $amount: 3%);
+  }
+}
+
+.key--function {
+  background-color: #424242;
+
+  &:hover,
+  &:active {
+    background-color: darken($color: #424242, $amount: 3%);
+  }
+}
+
+.key--operation {
+  font-size: 30px;
+  background-color: #FF9100;
+  
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($color: #FF9100, $amount: 3%);
+  }
+}
+
+.key--double {
+  text-align: left;
+  padding: 0 13% 0 12%;
+}

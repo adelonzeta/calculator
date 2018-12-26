@@ -1,0 +1,18 @@
+.display {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #212121;
+  border: solid 1px #263238;
+  color: #F5F5F5;
+
+  h1 {
+    margin: 0;
+    text-align: right;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 28px 15px 0;
+    font-weight: 600;
+  }
+}
