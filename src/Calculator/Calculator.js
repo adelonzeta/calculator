@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Display from './Display/Display'
 import Keypad from './Keypad/Keypad'
-import './Calculator.scss'
 
 export default () => {
   const [state, dispatch] = useState({

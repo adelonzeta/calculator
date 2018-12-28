@@ -1,5 +1,5 @@
 .keypad {
-  background-color: #263238;
+  background-color: $border-color;
   flex: 3;
   display: flex;
   flex-direction: column;
@@ -11,10 +11,10 @@
 }
 
 .key {
-  background-color: #616161;
-  border: solid 1px #263238;
+  background-color: $default-key-color;
+  border: solid 1px $border-color;
   outline: none;
-  color: #F5F5F5;
+  color: $text-color;
   font-size: 24px;
   line-height: 30px;
   flex: 1;
@@ -24,27 +24,27 @@
 
   &:hover,
   &:active {
-    background-color: darken($color: #616161, $amount: 3%);
+    background-color: darken($color: $default-key-color, $amount: 3%);
   }
 }
 
 .key--function {
-  background-color: #424242;
+  background-color: $function-key-color;
 
   &:hover,
   &:active {
-    background-color: darken($color: #424242, $amount: 3%);
+    background-color: darken($color: $function-key-color, $amount: 3%);
   }
 }
 
 .key--operation {
   font-size: 30px;
-  background-color: #FF9100;
+  background-color: $operation-key-color;
   
   &:hover,
   &:active,
   &:focus {
-    background-color: darken($color: #FF9100, $amount: 3%);
+    background-color: darken($color: $operation-key-color, $amount: 3%);
   }
 }
 

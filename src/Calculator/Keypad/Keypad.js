@@ -1,6 +1,5 @@
 import React from 'react'
 import * as button from '../utilities'
-import './Keypad.scss'
 
 export default ({state, dispatch}) => {
 	return (

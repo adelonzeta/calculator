@@ -1,4 +1,10 @@
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-}
+$background-color   : #212121;
+$border-color       : #263238;
+$text-color         : #F5F5F5;
+$default-key-color  : #616161;
+$function-key-color : #424242;
+$operation-key-color: #FF9100;
+
+@import 'Calculator/Calculator';
+@import 'Calculator/Display/Display';
+@import 'Calculator/Keypad/Keypad';
