@@ -5,6 +5,6 @@ $default-key-color  : #616161;
 $function-key-color : #424242;
 $operation-key-color: #FF9100;
 
-@import 'Calculator/Calculator';
-@import 'Calculator/Display/Display';
-@import 'Calculator/Keypad/Keypad';
+@import './Calculator/Calculator';
+@import './Calculator/Display/Display';
+@import './Calculator/Keypad/Keypad';
