@@ -7,18 +7,14 @@ export default (operator, state) => {
   let next = state.operator ? null : state.operandTwo
   let newOperator = state.operandOne ? operator : null
 
-  if (hasOperands && existingOperator === "DIVIDE")
-    result = String(number1 / number2)
-  if (hasOperands && existingOperator === "MULTIPLY")
-    result = String(number1 * number2)
-  if (hasOperands && existingOperator === "SUBTRACT")
-    result = String(number1 - number2)
-  if (hasOperands && existingOperator === "ADD")
-    result = String(number1 + number2)
-
+  if (hasOperands && (existingOperator === 'DIVIDE')) result = String(number1 / number2)
+  if (hasOperands && (existingOperator === 'MULTIPLY')) result = String(number1 * number2)
+  if (hasOperands && (existingOperator === 'SUBTRACT')) result = String(number1 - number2)
+  if (hasOperands && (existingOperator === 'ADD')) result = String(number1 + number2)
+  
   return {
-    operandOne: result,
-    operandTwo: next,
+    operandOne: result, 
+    operandTwo: next, 
     operator: newOperator
   }
 }

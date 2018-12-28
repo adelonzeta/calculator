@@ -9,7 +9,7 @@ export default state => {
     numberOne = Number(state.operandOne) / 100
     numberOne = numberOne.toString()
   }
-
+    
   return {
     operandOne: numberOne,
     operandTwo: numberTwo,
