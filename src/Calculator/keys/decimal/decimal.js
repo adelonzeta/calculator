@@ -1,4 +1,4 @@
-export default (period, {operandOne, operandTwo, operator}) => {
+export function decimal(period, {operandOne, operandTwo, operator}) {
   let numberOne = operandOne
   let numberTwo = operandTwo
   

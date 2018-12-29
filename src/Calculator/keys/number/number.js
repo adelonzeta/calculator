@@ -1,4 +1,4 @@
-export default (number, state) => {
+export function number(number, state) {
   let numberString = String(number)
   let numberOne = state.operandOne
   let numberTwo = state.operandTwo

@@ -5,50 +5,51 @@
   flex-direction: column;
 }
 
-.keypad__row {
+.row {
   display: flex;
   flex: 1;
-}
 
-.key {
-  background-color: $default-key-color;
-  border: solid 1px $border-color;
-  outline: none;
-  color: $text-color;
-  font-size: 24px;
-  line-height: 30px;
-  flex: 1;
-  padding: 0;
-  cursor: pointer;
-  transition: 0.4s;
-
-  &:hover,
-  &:active {
-    background-color: darken($color: $default-key-color, $amount: 3%);
-  }
-}
-
-.key--function {
-  background-color: $function-key-color;
-
-  &:hover,
-  &:active {
-    background-color: darken($color: $function-key-color, $amount: 3%);
-  }
-}
-
-.key--operation {
-  font-size: 30px;
-  background-color: $operation-key-color;
+  button,
+  .number {
+    background-color: $default-key-color;
+    border: solid 1px $border-color;
+    outline: none;
+    color: $text-color;
+    font-size: 24px;
+    line-height: 30px;
+    flex: 1;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.4s;
   
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: darken($color: $operation-key-color, $amount: 3%);
+    &:hover,
+    &:active {
+      background-color: darken($color: $default-key-color, $amount: 3%);
+    }
   }
-}
 
-.key--double {
-  text-align: left;
-  padding: 0 13% 0 12%;
+  .function {
+    background-color: $function-key-color;
+  
+    &:hover,
+    &:active {
+      background-color: darken($color: $function-key-color, $amount: 3%);
+    }
+  }
+  
+  .operation {
+    font-size: 30px;
+    background-color: $operation-key-color;
+    
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: darken($color: $operation-key-color, $amount: 3%);
+    }
+  }
+  
+  .double {
+    text-align: left;
+    padding: 0 13% 0 12%;
+  }
 }

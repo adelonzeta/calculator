@@ -1,4 +1,4 @@
-export default (operator, state) => {
+export function operation(operator, state) {
   const number1 = Number(state.operandOne)
   const number2 = Number(state.operandTwo)
   const hasOperands = state.operandOne && state.operandTwo

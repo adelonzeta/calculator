@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Edit calculator](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/adelonzeta/calculator/tree/master/)
+
 ## Available Scripts
 
 In the project directory, you can run:

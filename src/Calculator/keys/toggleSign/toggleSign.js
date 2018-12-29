@@ -1,12 +1,12 @@
-export default state => {
+export function toggleSign(state) {
   let numberOne = state.operandOne
   let numberTwo = state.operandTwo
 
   if (state.operator && state.operandTwo) {
-    numberTwo = Number(state.operandTwo) / 100
+    numberTwo = Number(state.operandTwo) * (-1)
     numberTwo = numberTwo.toString()
   } else {
-    numberOne = Number(state.operandOne) / 100
+    numberOne = Number(state.operandOne) * (-1)
     numberOne = numberOne.toString()
   }
     
