@@ -1,7 +1,7 @@
 export function clear() {
   return {
-    operandOne: '',
-    operandTwo: '',
-    operator: ''
+    operandOne: null,
+    operandTwo: null,
+    operator: null
   }
 }
