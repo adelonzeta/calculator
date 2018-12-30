@@ -1,7 +1,8 @@
 import React from 'react'
+import {StateHook} from '../types'
 import * as keys from '../keys'
 
-export default ({state, dispatch}) => {
+export default ({state, dispatch}: StateHook) => {
 	return (
 		<main className="keypad">
 			<div className="row">

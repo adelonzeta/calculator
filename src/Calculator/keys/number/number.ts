@@ -1,4 +1,6 @@
-export function number(number, state) {
+import {State} from '../../types'
+
+export function number(number: number, state: State): State {
   let numberString = String(number)
   let numberOne = state.operandOne
   let numberTwo = state.operandTwo
@@ -13,7 +15,7 @@ export function number(number, state) {
     if (state.operandOne) {
       numberOne = state.operandOne + numberString
     } else {
-      numberOne = number === 0 ? null : numberString
+      numberOne = number === 0 ? '' : numberString
     }
   }
 

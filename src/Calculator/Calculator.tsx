@@ -4,9 +4,9 @@ import Keypad from './Keypad/Keypad'
 
 export default () => {
   const [state, dispatch] = useState({
-    operandOne: null,
-    operandTwo: null,
-    operator  : null
+    operandOne: '',
+    operandTwo: '',
+    operator  : ''
   })
   
 	return (

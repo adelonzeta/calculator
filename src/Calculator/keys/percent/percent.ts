@@ -1,6 +1,8 @@
-export function percent(state) {
-  let numberOne = state.operandOne
-  let numberTwo = state.operandTwo
+import {State} from '../../types'
+
+export function percent(state: State): State {
+  let numberOne: string | number = state.operandOne
+  let numberTwo: string | number = state.operandTwo
 
   if (state.operator && state.operandTwo) {
     numberTwo = Number(state.operandTwo) / 100

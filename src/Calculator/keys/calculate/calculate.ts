@@ -1,4 +1,6 @@
-export function calculate({operandOne, operandTwo, operator}) {
+import {State} from '../../types'
+
+export function calculate({operandOne, operandTwo, operator}: State): State {
   const exists = operandOne && operandTwo && operator
   let result = operandOne
   let next = exists ? '' : operandTwo

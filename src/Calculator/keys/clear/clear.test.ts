@@ -7,21 +7,21 @@ describe('clear function', () => {
     expect(typeof state).toEqual('object')
   });  
 
-  describe('operandOne', () => {
+  describe('operandOne property', () => {
     it('should have a null value', () => {
-      expect(state.operandOne).toEqual(null)
+      expect(state.operandOne).toEqual('')
     });
   });
 
-  describe('operandTwo', () => {
+  describe('operandTwo property', () => {
     it('should have a null value', () => {
-      expect(state.operandTwo).toEqual(null)
+      expect(state.operandTwo).toEqual('')
     });
   });
 
-  describe('operator', () => {
+  describe('operator property', () => {
     it('should have a null value', () => {
-      expect(state.operator).toEqual(null)
+      expect(state.operator).toEqual('')
     });
   });
 });
