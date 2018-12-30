@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Edit calculator](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/adelonzeta/react-calculator/tree/master/)
+[![Edit calculator](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/adelonzeta/react-calculator)
 
 ## Available Scripts
 
