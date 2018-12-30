@@ -22,7 +22,7 @@
   "dependencies": {
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
-    "react-scripts": "2.1.1"
+    "scientific-calculator": "github:adelonzeta/scientific-calculator"
   },
   "devDependencies": {
     "@types/enzyme-adapter-react-16": "^1.0.3",
@@ -33,6 +33,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "node-sass": "4.11.0",
+    "react-scripts": "^2.1.1",
     "react-test-renderer": "^16.7.0",
     "typescript": "^3.2.2"
   }

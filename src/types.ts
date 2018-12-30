@@ -1,6 +1,6 @@
 export interface State {
-  operandOne: string,
-  operandTwo: string,
+  operand1: string,
+  operand2: string,
   operator: string
 }
 
