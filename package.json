@@ -22,7 +22,7 @@
   "dependencies": {
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
-    "scientific-calculator": "0.0.1-0"
+    "scientific-calculator": "0.0.1-2"
   },
   "devDependencies": {
     "@types/enzyme-adapter-react-16": "^1.0.3",
